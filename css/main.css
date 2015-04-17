@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.masthead {
+  background-image: url("../images/icon.svg"), url("../images/masthead-bg.png");
+  background-size: 50px auto, 200px auto;
+  padding-top: 1em;
+  background-repeat: no-repeat, repeat;
+  background-position: 10px 25px, left top;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0em 0.5em 0.5em 0.5em;
+  color: #000;
+  font-family: 'Aclonica', sans-serif;
+
+  nav {
+    text-align: center;
+    overflow: hidden;
+  }
+
+  nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+    float: left;
+    width:33.33%;
+    margin: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(81, 34, 0, 0.5);
+    padding: 0.5rem;
+    padding-left: 1em;
+    display: block;
+  }
+
+  nav a:hover {
+    background-color: #512200;
+  }
