@@ -87,8 +87,9 @@ h1 {
 
 .western {
   background-image: url("../images/western-sushi-roll.jpg");
-  background-size: 200px auto;
-  padding-top: 1em;
+  background-size: 100% auto;
+  padding-top: 10em;
+  padding-bottom: 10em;
   background-repeat: no-repeat;
   background-position: center top;
 }
