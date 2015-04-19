@@ -18,14 +18,14 @@ body {
 
 .haeding {
   margin: 0;
-  float: absolute;
-  width: 80%;
+  float: left;
+  width: 75%;
+  position: absolute;
 }
 
 .masthead {
   background-image: url("../images/masthead-bg.png");
   background-size: 200px auto;
-  padding-top: 1em;
   background-repeat: repeat;
   background-position: left top;
 }
@@ -88,8 +88,17 @@ h1 {
 .western {
   background-image: url("../images/western-sushi-roll.jpg");
   background-size: 100% auto;
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 8em;
+  padding-bottom: 8em;
   background-repeat: no-repeat;
   background-position: center top;
+}
+
+h2 {
+  background-color: #9C2C27;
+  color: #fff;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  font-size: 2em;
 }
