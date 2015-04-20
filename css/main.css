@@ -101,9 +101,42 @@ h2 {
   padding: 1em;
   text-align: center;
   font-size: 2em;
+  overflow: hidden;
 }
 
 p {
   font-family: 'PT Sans', sans-serif;
   margin: 2em 1em 2em 1em;
+}
+
+figure {
+  margin: 0;
+  width: 50%;
+}
+
+.philadelphia {
+  float: left;
+}
+
+.edamame {
+  float: right;
+  clear: both;
+}
+
+.seafood {
+  float: left;
+}
+
+.tempura {
+  float: right;
+  clear: both;
+}
+
+.hand-roll {
+  float: left;
+}
+
+.california {
+  float: right;
+  clear: both;
 }
