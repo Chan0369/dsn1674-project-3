@@ -101,7 +101,6 @@ h2 {
   padding: 1em;
   text-align: center;
   font-size: 2em;
-  overflow: hidden;
 }
 
 p {
@@ -109,9 +108,14 @@ p {
   margin: 2em 1em 2em 1em;
 }
 
-figure {
+.philadelphia .edamame .seafood .tempura .hand-roll .california {
   margin: 0;
   width: 50%;
+  position: relative;
+}
+
+.menu {
+  overflow: hidden;
 }
 
 .philadelphia {
@@ -120,7 +124,6 @@ figure {
 
 .edamame {
   float: right;
-  clear: both;
 }
 
 .seafood {
@@ -129,7 +132,6 @@ figure {
 
 .tempura {
   float: right;
-  clear: both;
 }
 
 .hand-roll {
@@ -138,5 +140,4 @@ figure {
 
 .california {
   float: right;
-  clear: both;
 }
