@@ -151,3 +151,15 @@ p {
   float: right;
   width: 50% auto;
 }
+
+h3 {
+  background-color: #D57927;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin: 1em 2em 1em 2em;
+}
+
+footer {
+  background-image: url("../images/masthead-bg.png");
+}
