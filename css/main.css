@@ -110,7 +110,7 @@ p {
 
 .philadelphia .edamame .seafood .tempura .hand-roll .california {
   margin: 0;
-  width: 50%;
+  width: 50% auto;
   position: relative;
 }
 
@@ -140,4 +140,14 @@ p {
 
 .california {
   float: right;
+}
+
+.pic1 .pic3 {
+  float: left;
+  width: 50% auto;
+}
+
+.pic2 .pic4 {
+  float: right;
+  width: 50% auto;
 }
