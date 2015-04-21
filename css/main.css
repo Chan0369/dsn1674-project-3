@@ -165,6 +165,14 @@ h3 {
   width: 100%;
 }
 
+ol {
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+}
+
 footer {
   background-image: url("../images/masthead-bg.png");
   background-size: 200px auto;
