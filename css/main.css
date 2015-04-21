@@ -118,27 +118,11 @@ p {
   overflow: hidden;
 }
 
-.philadelphia {
+.philadelphia .seafood .hand-roll {
   float: left;
 }
 
-.edamame {
-  float: right;
-}
-
-.seafood {
-  float: left;
-}
-
-.tempura {
-  float: right;
-}
-
-.hand-roll {
-  float: left;
-}
-
-.california {
+.edamame .tempura .california {
   float: right;
 }
 
@@ -160,6 +144,30 @@ h3 {
   margin: 1em 2em 1em 2em;
 }
 
+.box-1 {
+  position: relative;
+}
+
+.map {
+  width: 100%;
+}
+
+.location {
+  position: absolute;
+  width: 20%;
+  bottom-top: 5em;
+  left: 13.25em;
+  top: 7em;
+}
+
+.address {
+  text-algin: center;
+  width: 100%;
+}
+
 footer {
   background-image: url("../images/masthead-bg.png");
+  background-size: 200px auto;
+  background-repeat: repeat;
+  background-position: left bottom;
 }
