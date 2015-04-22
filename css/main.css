@@ -105,6 +105,9 @@ h2 {
 
 p {
   font-family: 'PT Sans', sans-serif;
+}
+
+.about {
   margin: 2em 1em 2em 1em;
 }
 
@@ -128,12 +131,12 @@ p {
 
 .pic1 .pic3 {
   float: left;
-  width: 50% auto;
+  width: 50%;
 }
 
 .pic2 .pic4 {
   float: right;
-  width: 50% auto;
+  width: 50%;
 }
 
 h3 {
@@ -161,8 +164,9 @@ h3 {
 }
 
 .address {
-  text-algin: center;
+  text-align: center;
   width: 100%;
+  font-family: 'PT Serif', serif;
 }
 
 ol {
@@ -177,5 +181,15 @@ footer {
   background-image: url("../images/masthead-bg.png");
   background-size: 200px auto;
   background-repeat: repeat;
-  background-position: left bottom;
+  background-position: center bottom;
+}
+
+.back-to-top {
+  width: 10%;
+}
+
+.to-top {
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  color: #9B2B26;
 }
