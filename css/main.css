@@ -16,11 +16,12 @@ body {
   font-family: 'PT Serif', serif;
 }
 
-.haeding {
-  margin: 0;
-  float: left;
-  width: 75%;
+.heading {
+  margin: 0 auto;
+  width: 90%;
   position: absolute;
+  bottom: 31em;
+  right: 2.5em;
 }
 
 .masthead {
@@ -28,6 +29,8 @@ body {
   background-size: 200px auto;
   background-repeat: repeat;
   background-position: left top;
+  padding: 5em;
+  margin: 0 auto;
 }
 
 
@@ -105,6 +108,7 @@ h2 {
 
 p {
   font-family: 'PT Sans', sans-serif;
+  text-align: center;
 }
 
 .about {
@@ -114,7 +118,6 @@ p {
 .philadelphia .edamame .seafood .tempura .hand-roll .california {
   margin: 0;
   width: 50% auto;
-  position: relative;
 }
 
 .menu {
@@ -175,6 +178,7 @@ ol {
 
 li {
   text-decoration: none;
+  list-style-type: none;
 }
 
 footer {
