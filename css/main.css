@@ -256,7 +256,7 @@ footer {
   background-size: 200px auto;
   background-repeat: repeat;
   background-position: left bottom;
-  padding: 0.5em;
+  padding: 1em;
   position: relative;
 }
 
@@ -271,5 +271,5 @@ footer {
   text-align: center;
   font-family: 'PT Serif', serif;
   color: #9B2B26;
-  position: relative;
+  position: absolute;
 }
