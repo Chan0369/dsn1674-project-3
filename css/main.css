@@ -122,76 +122,64 @@ p {
   margin: 0;
 }
 
-.philadelphia {
-  float: left;
-}
-
 .img-1 {
   width: 50%;
+  float: left;
 }
 
 .p-1 {
   width: 50%;
-}
-
-.edamame {
-  float: right;
+  float: left;
 }
 
 .img-2 {
   width: 50%;
+  float: right;
 }
 
 .p-2 {
   width: 50%;
-}
-
-.seafood {
-  float: left;
+  float: right;
 }
 
 .img-3 {
   width: 50%;
+  float: left;
 }
 
 .p-3 {
   width: 50%;
-}
-
-.tempura {
-  float: right;
+  float: left;
 }
 
 .img-4 {
   width: 50%;
+  float: right;
 }
 
 .p-4 {
   width: 50%;
-}
-
-.handroll {
-  float: left;
+  float: right;
 }
 
 .img-5 {
   width: 50%;
+  float: left;
 }
 
 .p-5 {
   width: 50%;
-}
-
-.california {
-  float: right;
+  float: left;
 }
 
 .img-6 {
   width: 50%;
+  float: right;
 }
 
 .p-6 {
   width: 50%;
+  float: right;
 }
 
 .box-1 {
