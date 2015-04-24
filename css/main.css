@@ -21,16 +21,13 @@ body {
   background-size: 200px auto;
   background-repeat: repeat;
   background-position: left top;
-  margin: 0 auto;
-  padding: 5em;
+  margin: 0;
+  padding: 1em 1.5em 0em 1.5em;
 }
 
 .heading {
-  margin: 0 auto;
-  width: 95%;
-  position: absolute;
-  bottom: 30em;
-  right: 1.5em;
+  margin: 0;
+  width: 100%;
 }
 
 nav {
@@ -70,13 +67,6 @@ nav a:hover {
 
 .western {
   position: relative;
-}
-
-.headline {
-  postion: absolute;
-  bottom: 20em;
-  width: 100%;
-  bottom: 0;
 }
 
 h1 {
@@ -130,7 +120,7 @@ p {
   float: left;
 }
 
-.p-1 {
+.par-1 {
   width: 50%;
   float: left;
 }
@@ -140,7 +130,7 @@ p {
   float: right;
 }
 
-.p-2 {
+.par-2 {
   width: 50%;
   float: right;
 }
@@ -150,7 +140,7 @@ p {
   float: left;
 }
 
-.p-3 {
+.par-3 {
   width: 50%;
   float: left;
 }
@@ -161,7 +151,7 @@ p {
   clear: both;
 }
 
-.p-4 {
+.par-4 {
   width: 50%;
   float: right;
 }
@@ -172,7 +162,7 @@ p {
   clear: both;
 }
 
-.p-5 {
+.par-5 {
   width: 50%;
   float: left;
 }
@@ -182,7 +172,7 @@ p {
   float: right;
 }
 
-.p-6 {
+.par-6 {
   width: 50%;
   float: right;
 }
@@ -260,11 +250,20 @@ footer {
 }
 
 .back-to-top {
-  width: 25%;
+  width: 8%;
   text-align: center;
   position: absolute;
-  left: 14em;
-  bottom: 7em;
+  left: 17em;
+  bottom: 8em;
+}
+.to-top {
+  color: #9C2C27;
+  font-size: 1.5em;
+  font-family: 'PT Serif', serif;
+  position: absolute;
+  top: 2.5em;
+  left: 9.5em;
+  text-decoration: none;
 }
 
 .end {
