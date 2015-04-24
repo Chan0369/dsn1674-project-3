@@ -22,12 +22,16 @@ body {
   background-repeat: repeat;
   background-position: left top;
   margin: 0;
-  padding: 1em 1.5em 0em 1.5em;
+  padding: 4.5em;
+  position: relative;
 }
 
 .heading {
   margin: 0;
-  width: 100%;
+  width: 95%;
+  position: absolute;
+  top: 0.5em;
+  right: 1em;
 }
 
 nav {
