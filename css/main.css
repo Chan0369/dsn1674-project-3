@@ -117,25 +117,99 @@ p {
   margin: 2em 1em 2em 1em;
 }
 
-
 .menu {
   overflow: hidden;
+  margin: 0;
 }
 
-.philadelphia .seafood .hand-roll {
+.philadelphia {
   float: left;
 }
 
-.edamame .tempura .california {
+.img-1 {
+  width: 50%;
+}
+
+.p-1 {
+  width: 50%;
+}
+
+.edamame {
   float: right;
 }
 
-.pic1 .pic3 {
+.img-2 {
+  width: 50%;
+}
+
+.p-2 {
+  width: 50%;
+}
+
+.seafood {
+  float: left;
+}
+
+.img-3 {
+  width: 50%;
+}
+
+.p-3 {
+  width: 50%;
+}
+
+.tempura {
+  float: right;
+}
+
+.img-4 {
+  width: 50%;
+}
+
+.p-4 {
+  width: 50%;
+}
+
+.handroll {
+  float: left;
+}
+
+.img-5 {
+  width: 50%;
+}
+
+.p-5 {
+  width: 50%;
+}
+
+.california {
+  float: right;
+}
+
+.img-6 {
+  width: 50%;
+}
+
+.p-6 {
+  width: 50%;
+}
+
+.box-1 {
   float: left;
   width: 50%;
 }
 
-.pic2 .pic4 {
+.box-2 {
+  float: right;
+  width: 50%;
+}
+
+.box-3 {
+  float: left;
+  width: 50%;
+}
+
+.box-4 {
   float: right;
   width: 50%;
 }
@@ -148,20 +222,24 @@ h3 {
   margin: 1em 2em 1em 2em;
 }
 
-.box-1 {
-  position: relative;
+.box-5 {
+  clear: both;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0;
 }
 
 .map {
   width: 100%;
+  margin: 0;
 }
 
 .location {
-  position: absolute;
+  position: relative;
   width: 20%;
   bottom-top: 5em;
-  left: 13.25em;
-  top: 7em;
+  left: 13.5em;
+  bottom: 18.5em;
 }
 
 .address {
